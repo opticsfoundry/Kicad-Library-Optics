@@ -77,4 +77,4 @@ The procedure of producing an optical setup with Robot developed by OpticsFoundr
 ### PCB
 
 ## Free Projects
-1. [AQuRA](https://github.com/opticsfoundary/)
+1. [AQuRA](https://github.com/opticsfoundary/AQuRA-KiCad-Design-GitHub/)
