@@ -38,5 +38,4 @@ PCB
 Free Projects
 ****************************************
 
-#. `AQuRA`_,
-.. _AQuRA: https://github.com/opticsfoundary/
+1. `AQuRA <https://github.com/opticsfoundary/>`_,
