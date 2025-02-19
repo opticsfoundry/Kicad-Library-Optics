@@ -8,8 +8,8 @@ If you have any questions or need help, write to us: opticsfoundary@gmail.com.
 ## Table of Contents
 - [How to add library to Kicad](#how-to-add-library-to-kicad)
 - [Start a new design](#start-a-new-design)
-- [Schematic](#schematic)
-- [PCB](#pcb)
+  - [Schematic](#schematic)
+  - [PCB](#pcb)
 - [Free Projects](#free-projects)
 
 ---
