@@ -1,0 +1,279 @@
+(footprint "Lens6mmNormal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "M16"
+		(at -8.8 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe93a6bb-0735-43ea-9bab-360729cd11a0")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "Mirror 6mm"
+		(at 1 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13fba7bc-b85f-48ab-afd5-608f293f8507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Optics:Mirror6mm"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b22a9fc7-310e-4f9e-a375-ff22365635d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fd7e5be-20d7-4e57-b6c1-07710e76016e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f03d3b70-0469-43ec-8fa6-241940435b74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8.7 0)
+		(end -6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b44f9c4d-5291-49ca-b6d7-f7afcfb7c57a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5aa038e0-6e6d-4501-bad5-07aa776d4b62")
+	)
+	(fp_rect
+		(start -6 -7)
+		(end 0 7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "61cc5887-1b76-4242-b19b-551ebc95e2b9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a31b099b-68c3-421c-8f27-dd307ae9fc05")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 5.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3f61c0a7-2400-4085-bfe6-69669a490b50")
+	)
+	(fp_rect
+		(start -8 -10)
+		(end 2 10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "05df52d1-11c2-4973-998c-ca1106edf7cd")
+	)
+	(fp_rect
+		(start -15.7 -6.7)
+		(end -12.7 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "3e140e34-7388-4118-bfdf-8c43cedb6a10")
+	)
+	(fp_rect
+		(start -15.7 0.7)
+		(end -12.7 6.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "1911a4a0-c282-48d7-8261-2ee1ff98e00f")
+	)
+	(fp_rect
+		(start -15 -11)
+		(end -7 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8f043f18-05b7-4cf7-82d2-c1de06826d4d")
+	)
+	(fp_rect
+		(start -15 8)
+		(end -7 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d4d9c16f-5d9d-4554-90a3-8c1d1e6b48c2")
+	)
+	(fp_rect
+		(start -7 -11)
+		(end 1 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "59ea3d93-7f28-4b20-a64b-5a103787ab3d")
+	)
+	(fp_rect
+		(start -7 8)
+		(end 1 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "72df33e6-4353-416f-9fd6-eb143adca690")
+	)
+	(fp_rect
+		(start 1 -11)
+		(end 9 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "94fe8369-f323-49f5-97d1-3f25daf5062b")
+	)
+	(fp_rect
+		(start 1 8)
+		(end 9 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4de5dcaa-9555-478a-91ef-f7cc9b221e95")
+	)
+	(fp_rect
+		(start 6.7 -6.7)
+		(end 9.7 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "eea42582-3ef7-4421-b70c-8b1d774064b0")
+	)
+	(fp_rect
+		(start 6.7 0.7)
+		(end 9.7 6.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "8d51e4e0-c1a5-43f6-9ed4-c4de8aaeaeea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71ca74df-3cba-4dca-bd99-e8144ac98a96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 5 0 90)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ae840635-02c3-44ea-8ea6-8b6e4b79f25e")
+	)
+	(pad "2" smd circle
+		(at -8.7 0 90)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e9ff28b5-42ca-4c72-b923-e9f8746089dd")
+	)
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/Mirror6mmPrismAssembly.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

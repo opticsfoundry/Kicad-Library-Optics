@@ -1,0 +1,193 @@
+(footprint "Shutter"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8 -11.675 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1fdd01d0-ed3a-4e82-868a-779d03f27ab2")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "Shutter"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f3073b8-7a14-4ab2-b677-1966541e8fbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "240f09dd-1dd6-4a90-bf09-1f1b0da1c6ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c80e2484-8edc-4a80-be63-fe5be25c3a4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd015aff-e67f-4bea-9f50-4e38d41996da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -20 -8.5)
+		(end 9.5 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ae47f81d-1033-4dd9-81c4-de46a07e2597")
+	)
+	(fp_rect
+		(start 1.5 -19)
+		(end 7.5 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8062cb2c-eef2-40be-82e6-70cd019c2a39")
+	)
+	(fp_circle
+		(center 6 0)
+		(end 6.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "674c4bae-46eb-4fb3-b889-42ae750ea1c7")
+	)
+	(fp_poly
+		(pts
+			(xy -20.6 -9.2) (xy -20.6 9.2) (xy 10.6 9.2) (xy 10.6 -9.4) (xy 8.4 -9.4) (xy 8.4 -19.8) (xy 0.6 -19.8)
+			(xy 0.6 -9.2)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ac37129b-a9c7-43b0-9efc-c583be2f9b2e")
+	)
+	(fp_line
+		(start 6 0)
+		(end -44 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "af7c82ee-b986-4394-bd51-68e6147fbe17")
+	)
+	(fp_line
+		(start 6 0)
+		(end 36 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "68a66402-5d76-4e5a-8186-722d328a1f5a")
+	)
+	(fp_rect
+		(start -4 -12.7)
+		(end 2 -9.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "1d647d9a-8395-4f09-a750-2e3ca2808272")
+	)
+	(fp_rect
+		(start -4 9.7)
+		(end 2 12.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "2d877c77-7389-401e-aa65-79223f1f4a19")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "43ae79c1-3a13-4f7e-a466-c1ab9e5debc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -4 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c04dec5a-7a2b-4c93-9d95-bd36d988f50a")
+	)
+	(pad "2" smd circle
+		(at 10 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2ec41a50-903c-4844-9e51-3e55710592c6")
+	)
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/BOS710Shutter.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
