@@ -3,7 +3,7 @@
 This repository includes a library for designing optical setups in KiCad.
 
 Please visit our [website](https://www.opticsfoundry.com/) for more product and ordering.  
-If you have any question or need help, write to us: opticsfoundary@gmail.com.
+If you have any question or need help, write to us: opticsfoundary@gmail.com
 
 ## Table of Contents
 - [How to add library to KiCad](#how-to-add-library-to-kiCad)
@@ -72,9 +72,42 @@ The procedure of producing an optical setup with Robot developed by OpticsFoundr
 
 ## Start a new design
 
+Now you can start a new project and open schematic editor to design your optical setup, as shown below.
+
+![new project](img/new-project.png)
+
+You could also copy one of the [examples](https://github.com/opticsfoundary/Kicad-Library-Optics/tree/main/Examples/) or use one of the [Free Projects](#free-projects) for starting point.
+
+`Note` Standard optics hight is 7.5 mm, if optics hight of your components is smaller or bigger, please write to us: opticsfoundary@gmail.com
+`Note` If you need a specific baseplate size or any other components which are not available in `Symbols`, please write to us: opticsfoundary@gmail.com
+
 ### Schematic
 
+Based on your design, you need to choose baseplate size for your board.
+
+![baseplate size](img/add-baseplate.png)
+
+If your page size is smaller than baseplate, you can change it in the page settings from `File` tab for schematic and footprint editors.
+
+Schematic editor looks like this after adding baseplate.
+
+![schematic with baseplate](img/schem-baseplate.png)
+
+I have add two collimators and mirrors to design a fiber to fiber setup.
+
+![fiber to fiber design](img/fiber-to-fiber.png)
+
+By selecting wire, you can draw the beam path.
+
+![wireing](img/wireing.png)
+
+Each component need to be defined by selecting the component and changing the value based on what is your need.
+
+![naming components](img/naming.png)
+
 ### PCB
+
+
 
 ## Free Projects
 1. [AQuRA](https://github.com/opticsfoundary/AQuRA-KiCad-Design-GitHub/)
