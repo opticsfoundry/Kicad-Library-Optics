@@ -3,10 +3,7 @@ Kicad Library for Optics
 
 This repository include librariy for designing optical setup in Kicad.
 
-|
-Please visit our `website`_ for more product and ordering.
-.. _website: https://www.opticsfoundry.com/
-|
+Please visit our `website <https://www.opticsfoundry.com/>`_ for more product and ordering.\
 If you have any question or need help write to us: opticsfoundary@gmail.com
 
 |
