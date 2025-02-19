@@ -1,4 +1,4 @@
-Kicad Library Optics
+Kicad Library for Optics
 ========================================
 
 This repository include librariy for designing optical setup in Kicad.
