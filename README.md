@@ -14,6 +14,13 @@ If you have any questions or need help, write to us: opticsfoundary@gmail.com.
 
 ---
 
+## Introduction
+
+[KiCad](https://www.kicad.org/) is an open source electronic design software. However, we have developed this library to be able to design optical setup.
+The procedure of producing an optical setup with Robot developed by OpticsFoundry is shown below.
+
+![Production procedure](img/production procedure.jpg)
+
 ## How to add library to Kicad
 
 ## Start a new design
