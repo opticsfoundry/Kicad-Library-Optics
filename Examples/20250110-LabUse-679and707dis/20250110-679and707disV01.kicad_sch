@@ -1,0 +1,3657 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9be44a0e-b922-44fb-99fe-7254f898ece0")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Optics:Baseplate230x230"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "230mm"
+				(at 0.254 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Optics:Baseplate230mm"
+				(at -0.254 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Baseplate230x230_1_1"
+				(rectangle
+					(start -115 115)
+					(end 115 -115)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Optics:Collimator_S&K_M5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Optics:S&KCollimator_V1"
+				(at 11.684 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Collimator_S&K_M5_1_1"
+				(rectangle
+					(start -33 14)
+					(end 0 -14)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.4879 0)
+					(end -2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -3.5921 0)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -33.02 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 10)
+					(end 17 -10)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 19.05 0 180)
+					(length 2.54)
+					(name "Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Optics:Lambda/2 -689Rot"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "WPR"
+				(at -0.508 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L/2@689nm - Rotatable"
+				(at -0.508 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Optics:WaveplateRotateable"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Lambda/2 -689Rot_0_1"
+				(arc
+					(start -2.54 -3.81)
+					(mid 0 -4.8621)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 3.81)
+					(mid 0 4.8621)
+					(end -2.54 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Lambda/2 -689Rot_1_1"
+				(rectangle
+					(start -5.5 10)
+					(end 5.5 -10)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Optics:Mirror3mmE02Right"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 1.016 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Mirror 3mm Polished"
+				(at 10.414 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Optics:Mirror3mmRight"
+				(at 12.192 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mirror3mmE02Right_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Mirror3mmE02Right_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -3.81 3.81) (xy -1.27 6.35) (xy 7.62 -2.54) (xy 5.08 -5.08) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "Out"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Leak"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Optics:Mirror6mmE02"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 3.556 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Mirror 6mm"
+				(at 8.382 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Optics:Mirror6mm"
+				(at 10.414 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mirror6mmE02_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 5.08) (xy 0 10.16) (xy 10.16 0) (xy 5.08 -5.08) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "Out"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Optics:Monitor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 3.81 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Monitor"
+				(at 3.81 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Optics:Detector"
+				(at 3.048 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Monitor_1_1"
+				(rectangle
+					(start 0 7.5)
+					(end 7 -7.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 -2.54)
+					(mid 6.1321 0)
+					(end 5.08 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Optics:NPBS_70-30-Flipped"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "NPBS-F"
+				(at 3.556 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NPBS-70:30-Flipped"
+				(at 9.398 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Optics:PBS_Flipped"
+				(at 9.398 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPBS_70-30-Flipped_0_1"
+				(polyline
+					(pts
+						(xy -6.35 6.35) (xy 6.35 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPBS_70-30-Flipped_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "In2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Optics:PBS_689Casix"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PBS"
+				(at 3.556 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PBSCasix689nm"
+				(at 9.398 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Optics:PBS"
+				(at 9.398 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PBS_689Casix_0_1"
+				(polyline
+					(pts
+						(xy -6.35 6.35) (xy 6.35 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PBS_689Casix_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "In2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 334.01 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2361d7f3-098e-46a8-a89f-6c87a0e59f03")
+	)
+	(junction
+		(at 60.96 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "508f2484-c164-46f9-95a6-9acaaddbd139")
+	)
+	(no_connect
+		(at 447.04 120.65)
+		(uuid "269485f9-d2cf-4ced-8879-f84d4be924d9")
+	)
+	(no_connect
+		(at 78.74 113.03)
+		(uuid "27b70cfd-be0e-4011-87e3-97c5718934cf")
+	)
+	(no_connect
+		(at 447.04 48.26)
+		(uuid "3f4985ab-9b1e-4444-9c93-4fee0a64a89b")
+	)
+	(no_connect
+		(at 173.99 49.53)
+		(uuid "4e1121e0-8e0a-44a4-b6d8-bf1d8d0653af")
+	)
+	(no_connect
+		(at 342.9 102.87)
+		(uuid "5272c4f8-3264-4306-8a3a-f70ba0ebc9ad")
+	)
+	(no_connect
+		(at 351.79 111.76)
+		(uuid "663868c9-7b7c-4f6c-9a63-90a987731039")
+	)
+	(no_connect
+		(at 173.99 121.92)
+		(uuid "737e9d55-442c-4951-9646-eab07969524b")
+	)
+	(no_connect
+		(at 165.1 130.81)
+		(uuid "847d42f1-e200-4f1d-81e9-5538ef105578")
+	)
+	(no_connect
+		(at 438.15 129.54)
+		(uuid "88b59d0c-fe48-4b2b-a4c0-d997e85e293a")
+	)
+	(no_connect
+		(at 351.79 93.98)
+		(uuid "8d3869e2-0d4e-495e-a3ac-4ab1d60e19d7")
+	)
+	(no_connect
+		(at 69.85 104.14)
+		(uuid "a79adfb5-0acb-4076-a6f5-13374633d889")
+	)
+	(no_connect
+		(at 447.04 138.43)
+		(uuid "b3d3b532-8697-4bea-835b-212d5803b723")
+	)
+	(no_connect
+		(at 173.99 139.7)
+		(uuid "b6817436-2c95-4c04-8948-efe71130a433")
+	)
+	(no_connect
+		(at 78.74 95.25)
+		(uuid "d6af4dc3-e63d-49c3-883c-4b83807b4df0")
+	)
+	(wire
+		(pts
+			(xy 334.01 215.9) (xy 509.27 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05debcb8-ca54-4c17-96f6-c7871e2286a1")
+	)
+	(wire
+		(pts
+			(xy 120.65 134.62) (xy 120.65 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f3f01c-4599-49cc-bc99-e3b867eb74ac")
+	)
+	(wire
+		(pts
+			(xy 247.65 58.42) (xy 255.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4e09e3-81ee-46f8-a08f-736bf6780d44")
+	)
+	(wire
+		(pts
+			(xy 124.46 130.81) (xy 165.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffe5735-ea6d-4682-be21-87b6229d4f6b")
+	)
+	(wire
+		(pts
+			(xy 74.93 105.41) (xy 236.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158d9917-fdfb-452e-8791-f1019a577ecf")
+	)
+	(wire
+		(pts
+			(xy 334.01 215.9) (xy 334.01 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185b1b87-35d5-434a-8d13-61cd233a1dde")
+	)
+	(wire
+		(pts
+			(xy 60.96 217.17) (xy 236.22 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd7f383-a70f-4b02-a921-3ae06df61df7")
+	)
+	(wire
+		(pts
+			(xy 347.98 157.48) (xy 389.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e01a837-ebb0-4053-b41e-ea382a81c557")
+	)
+	(wire
+		(pts
+			(xy 240.03 189.23) (xy 240.03 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1afdc9-5459-49be-b8a7-ed161ff78850")
+	)
+	(wire
+		(pts
+			(xy 74.93 58.42) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23749701-2760-42ee-8555-207b4c5f9bf1")
+	)
+	(wire
+		(pts
+			(xy 173.99 91.44) (xy 173.99 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2680c203-4f37-496b-aa6d-2e64a30863e9")
+	)
+	(wire
+		(pts
+			(xy 455.93 57.15) (xy 509.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a219633-5f1c-4c40-80e3-86ca12533674")
+	)
+	(wire
+		(pts
+			(xy 447.04 138.43) (xy 447.04 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c29692-8c94-4bfb-a580-e295c7d5ef79")
+	)
+	(wire
+		(pts
+			(xy 393.7 133.35) (xy 393.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35624e23-fba2-4348-9c83-494ee136a1bc")
+	)
+	(wire
+		(pts
+			(xy 347.98 57.15) (xy 374.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e597efa-d71d-4d86-bc3a-6664d28c2688")
+	)
+	(wire
+		(pts
+			(xy 74.93 158.75) (xy 116.84 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee62801-4d80-48a8-918d-1aadffa09f94")
+	)
+	(wire
+		(pts
+			(xy 513.08 187.96) (xy 513.08 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af92c15-38e0-4853-8fad-0eb4894d1f61")
+	)
+	(wire
+		(pts
+			(xy 240.03 62.23) (xy 240.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1740aa-0e52-44e5-8415-b574142b8614")
+	)
+	(wire
+		(pts
+			(xy 173.99 67.31) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677178e6-475f-45e2-8c2c-a3722de3175d")
+	)
+	(wire
+		(pts
+			(xy 177.8 185.42) (xy 236.22 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddfb82c-f3d4-4cee-96e7-65cff2af9a7e")
+	)
+	(wire
+		(pts
+			(xy 447.04 66.04) (xy 447.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e642664-e745-4eb0-90f3-4843e1f67511")
+	)
+	(wire
+		(pts
+			(xy 334.01 217.17) (xy 347.98 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786c575c-0df7-454c-8ada-c28494a4f511")
+	)
+	(wire
+		(pts
+			(xy 57.15 217.17) (xy 60.96 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c047e3-91ba-4382-ba5f-e0a139d76f1e")
+	)
+	(wire
+		(pts
+			(xy 513.08 60.96) (xy 513.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97aaddcf-82b7-4765-bb30-417af638b3e6")
+	)
+	(wire
+		(pts
+			(xy 173.99 139.7) (xy 173.99 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73852c8-1338-49f9-ae6b-3018737d4491")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c51bc9-5b95-4cd4-880f-304f5fa1ef81")
+	)
+	(wire
+		(pts
+			(xy 60.96 218.44) (xy 74.93 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf004305-6297-42ef-867d-211ae5cf0f4d")
+	)
+	(wire
+		(pts
+			(xy 397.51 129.54) (xy 438.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c236c87f-250b-45c1-ac73-408a0fda73e0")
+	)
+	(wire
+		(pts
+			(xy 520.7 57.15) (xy 528.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c979f855-76ef-41b4-8cf4-e4a2dfe9ea66")
+	)
+	(wire
+		(pts
+			(xy 182.88 58.42) (xy 236.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae4f131-3b15-438f-a275-f818a8b237a8")
+	)
+	(wire
+		(pts
+			(xy 450.85 184.15) (xy 509.27 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7dd07f-3e54-4031-97a2-261aaf7bda7a")
+	)
+	(wire
+		(pts
+			(xy 347.98 104.14) (xy 509.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7737da-3d5c-454e-8db7-a95ffd13f08b")
+	)
+	(wire
+		(pts
+			(xy 330.2 215.9) (xy 334.01 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc9a855-4ccb-44a5-a634-2164cf176181")
+	)
+	(wire
+		(pts
+			(xy 447.04 90.17) (xy 447.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d626fd59-2c70-4776-8deb-d254c37c9a3f")
+	)
+	(wire
+		(pts
+			(xy 389.89 57.15) (xy 438.15 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5ffc6a-123e-4560-b54e-8ab4b4bd395c")
+	)
+	(wire
+		(pts
+			(xy 60.96 217.17) (xy 60.96 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e271d675-e14f-44f5-bfbc-f08cd7db5009")
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 513.08 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ad0be0a-0215-48db-9b26-852594f38fe3")
+		(property "Reference" "M13"
+			(at 518.668 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 516.636 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 523.494 191.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 513.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 513.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a67e26f9-b17c-4eb8-a43e-10cb1ad58b55")
+		)
+		(pin "1"
+			(uuid "5a459149-4558-4ca5-9a78-a4275ebf0d35")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror3mmE02Right")
+		(at 513.08 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "192f9405-b5ba-4112-b4fc-77a05688d53f")
+		(property "Reference" "M11"
+			(at 514.985 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mirror 3mm Polished"
+			(at 514.985 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:Mirror3mmRight"
+			(at 525.272 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 513.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 513.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c82b5db5-800f-4979-a60f-d1e59a980db2")
+		)
+		(pin "2"
+			(uuid "e6d83c4d-cfaf-41eb-a03b-4918af443cf4")
+		)
+		(pin "1"
+			(uuid "9efe212e-1e08-498f-ab7c-5a39ac39a7fa")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Lambda/2 -689Rot")
+		(at 109.22 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24287a7d-9589-4654-959a-c93507c9d63a")
+		(property "Reference" "WPR1"
+			(at 108.712 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L/2@689nm - Rotatable"
+			(at 109.474 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:WaveplateRotateable"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a21a17fa-7bfd-4eb5-895a-2ba9e1d1bed7")
+		)
+		(pin "2"
+			(uuid "e9eccc56-9702-40e7-8d55-0479f10f4a86")
+		)
+		(instances
+			(project ""
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "WPR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Collimator_S&K_M5")
+		(at 328.93 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2659dea5-3e04-4530-a4ed-779e7343a462")
+		(property "Reference" "C7"
+			(at 330.2 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "689nm 11/2 Out, 60SMS-1-4-A4.5S-02"
+			(at 329.946 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V1"
+			(at 328.93 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c572a293-7cb1-47b0-895c-3a0e8a670cf0")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:PBS_689Casix")
+		(at 447.04 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49ca7da2-ff0e-4cd6-9e97-d9cec8c9f16c")
+		(property "Reference" "PBS2"
+			(at 459.74 50.8314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PBSCasix689nm"
+			(at 459.74 53.3714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:PBS"
+			(at 456.438 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 447.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6628243c-82e4-49a3-83ae-2b40312562cc")
+		)
+		(pin "2"
+			(uuid "908e1424-d1bf-4b6d-a38b-6a501aa8687f")
+		)
+		(pin "1"
+			(uuid "ddbb8153-6546-4059-b56d-dd7b7c1bce89")
+		)
+		(pin "4"
+			(uuid "659fd05e-1181-448d-85ba-2646fd9785a4")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "PBS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:PBS_689Casix")
+		(at 173.99 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dfced52-eba1-4762-a3ad-7960f91c5615")
+		(property "Reference" "PBS1"
+			(at 186.69 52.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PBSCasix689nm"
+			(at 186.69 54.6414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:PBS"
+			(at 183.388 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e70eb643-b772-4f02-851d-f3f8a4acb930")
+		)
+		(pin "2"
+			(uuid "9eaa9d7e-63f5-429c-9207-dfb6480606aa")
+		)
+		(pin "1"
+			(uuid "c98c433e-2436-419d-a937-c6494b0b6f50")
+		)
+		(pin "4"
+			(uuid "b7fb9f52-4160-4143-9abc-2af68c16f202")
+		)
+		(instances
+			(project ""
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "PBS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Lambda/2 -689Rot")
+		(at 382.27 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53aae50c-e568-486c-b304-e582276adb6e")
+		(property "Reference" "WPR3"
+			(at 381.762 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L/2@689nm - Rotatable"
+			(at 382.524 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:WaveplateRotateable"
+			(at 382.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c68e4555-e390-4ebb-a4d4-78aa865acc75")
+		)
+		(pin "2"
+			(uuid "e8ae81d7-d7ae-4d5f-8ef5-780ec6b682e1")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "WPR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 120.65 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "639ce206-77fd-445c-882e-220648013b4b")
+		(property "Reference" "M4"
+			(at 127 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 127 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 113.792 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6f800ed-d858-4881-808e-296fc8699103")
+		)
+		(pin "1"
+			(uuid "e45141d5-989c-4d2d-9d9e-9207a075bd39")
+		)
+		(instances
+			(project "20240906-AQuRARedV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 513.08 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64ed69e1-cf52-4480-88b7-d27eb00b4672")
+		(property "Reference" "M12"
+			(at 519.43 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 519.43 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 506.222 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 513.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 513.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a15e0b5a-f7ae-4b03-a54e-37664ec253e7")
+		)
+		(pin "1"
+			(uuid "12253b67-1c1b-4ccf-b1e6-e25400197e80")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 393.7 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c62169-b5c8-4f95-8094-5245f1bc9e7d")
+		(property "Reference" "M8"
+			(at 393.7 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 393.954 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 400.558 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "494a0560-c92e-45bd-b0ba-3675dbd25736")
+		)
+		(pin "1"
+			(uuid "4c0b3b75-b428-47bd-b2a4-7c7587b41bf8")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Lambda/2 -689Rot")
+		(at 447.04 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b383081-9236-4cf8-ad6f-19cf3a5cecbe")
+		(property "Reference" "WPR4"
+			(at 457.675 81.3378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L/2@689nm - Rotatable"
+			(at 457.675 83.7621 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:WaveplateRotateable"
+			(at 440.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 447.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "515f919b-364f-42d8-9d45-030c494063b7")
+		)
+		(pin "2"
+			(uuid "7e75f863-b716-4891-bd97-4c3506ebf2de")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "WPR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Monitor")
+		(at 257.81 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de5f80c-2b0b-400d-9a12-2fafc6ac1bbe")
+		(property "Reference" "D1"
+			(at 264.16 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Monitor"
+			(at 264.16 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:Detector"
+			(at 260.35 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa9ae3f2-3c15-44d8-883e-9de5c3306f1a")
+		)
+		(instances
+			(project ""
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Collimator_S&K_M5")
+		(at 55.88 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7487dc5b-f341-44e8-b4df-fc0a8a250cd0")
+		(property "Reference" "C1"
+			(at 57.15 213.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "689nm 9/2 Out, 60SMS-1-4-A4.5S-02"
+			(at 56.642 222.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V1"
+			(at 55.88 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbabec5d-a722-4125-b02c-17a6c5027357")
+		)
+		(instances
+			(project ""
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Collimator_S&K_M5")
+		(at 328.93 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e3c0b14-c4cc-4a27-9e8a-9ec6875192aa")
+		(property "Reference" "C5"
+			(at 330.2 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "689nm Source, 60SMS-1-4-M5-10"
+			(at 329.184 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V1"
+			(at 328.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e1f7715-d1a7-4f40-a11a-ca6a4f049845")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Monitor")
+		(at 530.86 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "831cafaf-52ed-44fc-8097-845af73187d6")
+		(property "Reference" "D2"
+			(at 537.21 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Monitor"
+			(at 537.21 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:Detector"
+			(at 533.4 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 533.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 533.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a07c89d-febe-4023-90a5-1de010f129f0")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Collimator_S&K_M5")
+		(at 328.93 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84b0ee40-124e-4ea1-9068-85615ac8f26c")
+		(property "Reference" "C8"
+			(at 330.2 212.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "689nm 9/2 Out, 60SMS-1-4-A4.5S-02"
+			(at 329.692 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V1"
+			(at 328.93 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb0299cb-ae65-4713-aeea-10eb7682d23b")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 513.08 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "973a3768-a656-44a3-a023-6193eeec4f82")
+		(property "Reference" "M14"
+			(at 534.67 221.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 534.416 219.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 506.222 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 513.08 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 513.08 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc002ffb-cee2-4cb8-b49e-805af2dc9920")
+		)
+		(pin "1"
+			(uuid "9e7ed927-872c-45de-94b8-34ca66fb995c")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 240.03 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98a746a3-50f8-4707-8519-0365acc422b4")
+		(property "Reference" "M6"
+			(at 245.618 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 243.586 164.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 250.444 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f549701-fa72-47aa-a4a5-203e89a25031")
+		)
+		(pin "1"
+			(uuid "f6cbb3d6-c99d-4567-afb4-6499f516b9ca")
+		)
+		(instances
+			(project "20240906-AQuRARedV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 240.03 217.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c369357-dbdd-44d8-a287-feeac3437d60")
+		(property "Reference" "M7"
+			(at 261.62 222.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 261.366 220.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 233.172 227.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd5ec2e5-4e1a-4225-a78e-00fac3f7b153")
+		)
+		(pin "1"
+			(uuid "27513373-88ab-4a0a-8e48-1c84b8a71be1")
+		)
+		(instances
+			(project "20250110-679disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Collimator_S&K_M5")
+		(at 328.93 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c5b115d-9fb7-4457-859c-b4d96b7123be")
+		(property "Reference" "C6"
+			(at 330.2 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "689nm 11/2 Out, 60SMS-1-4-A4.5S-02"
+			(at 329.946 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V1"
+			(at 328.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0bb56a2-3217-4fbf-896b-caf92e785ad0")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Collimator_S&K_M5")
+		(at 55.88 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a57e985b-f449-4c6d-91e4-6948da0c0d3f")
+		(property "Reference" "C3"
+			(at 57.15 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "689nm Source, 60SMS-1-4-M5-10"
+			(at 56.134 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V1"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5c4a922-0fcf-412c-a611-36e6f0394f3e")
+		)
+		(instances
+			(project "20240906-AQuRARedV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Collimator_S&K_M5")
+		(at 55.88 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a67b0f34-6f58-4fed-861e-209b1e80b74d")
+		(property "Reference" "C4"
+			(at 57.15 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "689nm 11/2 Out, 60SMS-1-4-A4.5S-02"
+			(at 56.896 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V1"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a69ca8b-8057-49fa-8f25-fac921731fde")
+		)
+		(instances
+			(project "20250110-679disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:NPBS_70-30-Flipped")
+		(at 173.99 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a93be5fa-42fc-4a99-bccc-39da73a6c450")
+		(property "Reference" "NPBSF3"
+			(at 191.3671 125.4874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPBS-70:30-Flipped"
+			(at 191.3671 127.9117 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:PBS_Flipped"
+			(at 186.182 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d66de0f-7af2-4f59-8b92-899fdb545193")
+		)
+		(pin "2"
+			(uuid "5c7ac697-d53b-41ed-9bc4-ac9faf87f904")
+		)
+		(pin "1"
+			(uuid "5b6ed30b-4714-4930-b308-f9958d9df61b")
+		)
+		(pin "4"
+			(uuid "0c6cf989-560d-423c-af28-166740af9c9d")
+		)
+		(instances
+			(project "20240906-AQuRARedV02"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "NPBSF3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 447.04 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b417791f-13d8-46e0-ae3c-96a72444e954")
+		(property "Reference" "M10"
+			(at 441.452 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 443.484 205.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 436.626 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 447.04 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "810a31e1-2fea-401e-bcb0-ea45d5001d66")
+		)
+		(pin "1"
+			(uuid "27bc8f87-b714-48ac-9092-5bff56fba1d3")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 393.7 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4dda08d-62b2-4125-9905-08eb0dad5357")
+		(property "Reference" "M9"
+			(at 400.05 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 400.05 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 386.842 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa2aa00f-0c27-406e-9a12-ace08d8bb370")
+		)
+		(pin "1"
+			(uuid "03a7b5f9-051b-41e5-93e4-f67997d3d755")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 173.99 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8110231-3377-4d49-a9e9-862b2d501c7a")
+		(property "Reference" "M1"
+			(at 168.402 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 170.434 206.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 163.576 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44d44361-2db3-4a2a-a345-b3ee47ef996a")
+		)
+		(pin "1"
+			(uuid "6a6796b1-ed81-4e44-9b09-dfd0ae66883c")
+		)
+		(instances
+			(project "20250110-679disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Collimator_S&K_M5")
+		(at 55.88 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9608f56-d3c2-4f9a-9551-939e70691538")
+		(property "Reference" "C2"
+			(at 57.15 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "689nm 11/2 Out, 60SMS-1-4-A4.5S-02"
+			(at 56.896 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V1"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57295a16-7154-4ece-95f6-dbd57b4a4457")
+		)
+		(instances
+			(project "20240906-AQuRARedV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 120.65 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d99c3a45-460b-45a6-81a8-2e47c5ca991c")
+		(property "Reference" "M5"
+			(at 120.65 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 120.904 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 127.508 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfa2adca-9ce9-4b5f-bb95-86d4a50b3299")
+		)
+		(pin "1"
+			(uuid "a6b489c1-fb2a-461e-a6c2-b7a29c135fd0")
+		)
+		(instances
+			(project "20240906-AQuRARedV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Lambda/2 -689Rot")
+		(at 173.99 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf53be6-c3d9-41d9-838d-8b37cf9a5e1e")
+		(property "Reference" "WPR2"
+			(at 184.625 82.6078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L/2@689nm - Rotatable"
+			(at 184.625 85.0321 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:WaveplateRotateable"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f462bef6-c1c6-460c-9d6c-2f79d2b94661")
+		)
+		(pin "2"
+			(uuid "444913dd-53cd-4889-a894-47bc5f6ac1dd")
+		)
+		(instances
+			(project "20250110-679disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "WPR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror6mmE02")
+		(at 240.03 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de257950-d060-469a-a1dd-d011d0fd4d57")
+		(property "Reference" "M3"
+			(at 246.38 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mirror 6mm"
+			(at 246.38 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:Mirror6mm"
+			(at 233.172 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e57afb03-8b81-4284-b3e7-81626204c149")
+		)
+		(pin "1"
+			(uuid "6305757d-c2a3-4ab9-8ee2-209513a90e86")
+		)
+		(instances
+			(project ""
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Baseplate230x230")
+		(at 156.21 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0e0f2bd-faed-4de9-ac0b-8b236604bcd7")
+		(property "Reference" "BP1"
+			(at 161.29 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "230mm"
+			(at 161.29 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:Baseplate230mm"
+			(at 155.956 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "BP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:NPBS_70-30-Flipped")
+		(at 447.04 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6797124-e836-491a-b420-5e0e7f0002b0")
+		(property "Reference" "NPBSF1"
+			(at 464.4171 124.2174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPBS-70:30-Flipped"
+			(at 464.4171 126.6417 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Optics:PBS_Flipped"
+			(at 459.232 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 447.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fa40096b-9c18-424e-968f-5ae3369845c5")
+		)
+		(pin "2"
+			(uuid "0bd20201-0057-42e8-8827-e7cb17ad6b90")
+		)
+		(pin "1"
+			(uuid "43e8b84f-efb6-4dee-8c12-a7a1576d4d1b")
+		)
+		(pin "4"
+			(uuid "85b1a742-a87d-41d6-9a08-c89396403479")
+		)
+		(instances
+			(project "20250110-679and707disV01"
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "NPBSF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optics:Mirror3mmE02Right")
+		(at 240.03 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6e84194-2493-4028-94e7-e50dc0ed1757")
+		(property "Reference" "M2"
+			(at 241.935 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mirror 3mm Polished"
+			(at 241.935 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:Mirror3mmRight"
+			(at 252.222 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0d89511c-b697-441e-92b7-4922939ca3f0")
+		)
+		(pin "2"
+			(uuid "1b3f79ae-2e40-477c-b6e4-bba7e4f8f74e")
+		)
+		(pin "1"
+			(uuid "ec8ce0ec-3936-4b26-b1ce-5c1ae6a38ee0")
+		)
+		(instances
+			(project ""
+				(path "/9be44a0e-b922-44fb-99fe-7254f898ece0"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

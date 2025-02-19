@@ -3,7 +3,7 @@
 This repository includes a library for designing optical setups in KiCad.
 
 Please visit our [website](https://www.opticsfoundry.com/) for more product and ordering.  
-If you have any questions or need help, write to us: opticsfoundary@gmail.com.
+If you have any question or need help, write to us: opticsfoundary@gmail.com.
 
 ## Table of Contents
 - [How to add library to KiCad](#how-to-add-library-to-kiCad)
@@ -29,7 +29,7 @@ The procedure of producing an optical setup with Robot developed by OpticsFoundr
 ![download library](img/download-library.png)
 
 3. Unzip the downloaded folder and move the folder to an appropriate path if you want,
-4. Open the KiCad software, from `Preferences` tab click on `Configure Paths...` as shown below,
+4. Open the KiCad software, from `Preferences` tab, click on `Configure Paths...` as shown below,
 
 ![configure paths](img/configure-path.png)
 
@@ -44,16 +44,16 @@ The procedure of producing an optical setup with Robot developed by OpticsFoundr
 ![kicad path](img/kicad-library-path.png)
 
 7. At the end click on `OK` and close the window,
-8. Now from `Preferences` tab click on `Manage Symbol Libraries...`,
+8. Now from `Preferences` tab, click on `Manage Symbol Libraries...`,
 9. Add a new row and call it `Optics` with library path `${KICAD_OPTICSFOUNDRY_OPTICS}/Symbols/Optics.kicad_sym`. As shown below,
 
 ![symbol path](img/symbol-library.png)
 
-10. Then click on `OK` and close the window. If you encounter an error like below, propabply the path is not defined correctly,
+10. Then click on `OK` and close the window. If you encounter an error like below, probably the path is not defined correctly,
 
 ![error symbol](img/error.png)
 
-11. From `Preferences` tab click on `Manage Footprint Libraries...`,
+11. From `Preferences` tab, click on `Manage Footprint Libraries...`,
 12. Add a new row and call it `Optics` with library path `${KICAD_OPTICSFOUNDRY_OPTICS}/Footprints/Optics.pretty`, at the end click on `OK` and close the window. As shown below,
 
 ![footprint path](img/footprint-library.png)
