@@ -37,7 +37,7 @@ The procedure of producing an optical setup with Robot developed by OpticsFoundr
 
 ![kigithub path](img/kigithub-path.png)
 
-6. Add another one and name it `KICAD_OPTICSFOUNDRY_OPTICS`, for the path click on folder icon and go to the path which the library has been downloaded then select `Optics` folder. As shown in following pictures,
+6. Add another one and name it `KICAD_FIREFLY_OPTICS`, for the path click on folder icon and go to the path which the library has been downloaded then select `Optics` folder. As shown in following pictures,
 
 ![select path](img/path-for-library.png)
 
@@ -45,7 +45,7 @@ The procedure of producing an optical setup with Robot developed by OpticsFoundr
 
 7. At the end click on `OK` and close the window,
 8. Now from `Preferences` tab, click on `Manage Symbol Libraries...`,
-9. Add a new row and call it `Optics` with library path `${KICAD_OPTICSFOUNDRY_OPTICS}/Symbols/Optics.kicad_sym`. As shown below,
+9. Add a new row and call it `Optics` with library path `${KICAD_FIREFLY_OPTICS}/Symbols/Optics.kicad_sym`. As shown below,
 
 ![symbol path](img/symbol-library.png)
 
@@ -54,7 +54,7 @@ The procedure of producing an optical setup with Robot developed by OpticsFoundr
 ![error symbol](img/error.png)
 
 11. From `Preferences` tab, click on `Manage Footprint Libraries...`,
-12. Add a new row and call it `Optics` with library path `${KICAD_OPTICSFOUNDRY_OPTICS}/Footprints/Optics.pretty`, at the end click on `OK` and close the window. As shown below,
+12. Add a new row and call it `Optics` with library path `${KICAD_FIREFLY_OPTICS}/Footprints/Optics.pretty`, at the end click on `OK` and close the window. As shown below,
 
 ![footprint path](img/footprint-library.png)
 
@@ -79,6 +79,7 @@ Now you can start a new project and open schematic editor to design your optical
 You could also copy one of the [examples](https://github.com/opticsfoundary/Kicad-Library-Optics/tree/main/Examples/) or use one of the [Free Projects](#free-projects) for starting point.
 
 `Note` Standard optics hight is 7.5 mm, if optics hight of your components is smaller or bigger, please write to us: opticsfoundary@gmail.com
+
 `Note` If you need a specific baseplate size or any other components which are not available in `Symbols`, please write to us: opticsfoundary@gmail.com
 
 ### Schematic
@@ -93,7 +94,7 @@ Schematic editor looks like this after adding baseplate.
 
 ![schematic with baseplate](img/schem-baseplate.png)
 
-I have add two collimators and mirrors to design a fiber to fiber setup.
+I have added two collimators and mirrors to design a fiber to fiber setup.
 
 ![fiber to fiber design](img/fiber-to-fiber.png)
 
@@ -107,7 +108,23 @@ Each component need to be defined by selecting the component and changing the va
 
 ### PCB
 
+After finishing your design, save all changes in schematic editor. NOw you could move to PCB editor and update your PCB from Schematic.
 
+`Note` You could also update PCB design each time after adding any new components.
+
+Click on `Update PCB from Schematic...` in PCB editor, then update PCB and close the window as shown below.
+
+![update PCB](img/update-pcb.png)
+
+Now the PCB looks like this:
+
+![PCB after update](img/pcb-after-update.png)
+
+Each component need to be selected and reposition and rerotate based on reality.
+
+![redesign PCB](img/redesign-pcb.png)
+
+This example is available in [test](https://github.com/opticsfoundary/Kicad-Library-Optics/tree/main/Examples/test/)
 
 ## Free Projects
 1. [AQuRA](https://github.com/opticsfoundary/AQuRA-KiCad-Design-GitHub/)
