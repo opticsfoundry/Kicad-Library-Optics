@@ -1,0 +1,42 @@
+Kicad Library Optics
+========================================
+
+This repository include librariy for designing optical setup in Kicad.
+
+|
+Please visit our `website`_ for more product and ordering.
+.. _website: https://www.opticsfoundry.com/
+|
+If you have any question or need help write to us: opticsfoundary@gmail.com
+
+|
+
+.. contents:: Table of Contents
+    :depth: 2
+
+
+How to add librariy to Kicad
+****************************************
+
+
+
+
+
+Start a new design
+****************************************
+
+
+
+Schematic
+########################################
+
+
+PCB
+########################################
+
+
+Free Projects
+****************************************
+
+#. `AQuRA`_,
+.. _AQuRA: https://github.com/opticsfoundary/
