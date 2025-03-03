@@ -1733,6 +1733,26 @@
 				)
 			)
 		)
+		(symbol "Cleaning-689nm_1_0"
+			(pin passive line
+				(at 0 8.89 270)
+				(length 2.54)
+				(name "H"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Cleaning-689nm_1_1"
 			(rectangle
 				(start -6.35 6.35)
