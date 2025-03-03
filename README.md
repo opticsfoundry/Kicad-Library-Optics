@@ -3,9 +3,10 @@
 This repository includes a library for designing optical setups in KiCad.
 
 Please visit our [website](https://www.opticsfoundry.com/) for more product and ordering.  
-If you have any question or need help, write to us: opticsfoundary@gmail.com
+If you have any question or need help, write to us: opticsfoundry@gmail.com
 
 ## Table of Contents
+- [Introduction](#introduction)
 - [How to add library to KiCad](#how-to-add-library-to-kiCad)
 - [Start a new design](#start-a-new-design)
   - [Schematic](#schematic)
@@ -76,11 +77,11 @@ Now you can start a new project and open schematic editor to design your optical
 
 ![new project](img/new-project.png)
 
-You could also copy one of the [examples](https://github.com/opticsfoundary/Kicad-Library-Optics/tree/main/Examples/) or use one of the [Free Projects](#free-projects) for starting point.
+You could also copy one of the [examples](https://github.com/opticsfoundry/Kicad-Library-Optics/tree/main/Examples/) or use one of the [Free Projects](#free-projects) for starting point.
 
-`Note` Standard optics hight is 7.5 mm, if optics hight of your components is smaller or bigger, please write to us: opticsfoundary@gmail.com
+`Note` Standard optics hight is 7.5 mm, if optics hight of your components is smaller or bigger, please write to us: opticsfoundry@gmail.com
 
-`Note` If you need a specific baseplate size or any other components which are not available in `Symbols`, please write to us: opticsfoundary@gmail.com
+`Note` If you need a specific baseplate size or any other components which are not available in `Symbols`, please write to us: opticsfoundry@gmail.com
 
 ### Schematic
 
@@ -124,7 +125,7 @@ Each component need to be selected and reposition and rerotate based on reality.
 
 ![redesign PCB](img/redesign-pcb.png)
 
-This example is available in [test](https://github.com/opticsfoundary/Kicad-Library-Optics/tree/main/Examples/test/)
+This example is available in [test](https://github.com/opticsfoundry/Kicad-Library-Optics/tree/main/Examples/test/)
 
 ## Free Projects
-1. [AQuRA](https://github.com/opticsfoundary/AQuRA-KiCad-Design-GitHub/)
+1. [AQuRA](https://github.com/opticsfoundry/AQuRA-KiCad-Design-GitHub/)
