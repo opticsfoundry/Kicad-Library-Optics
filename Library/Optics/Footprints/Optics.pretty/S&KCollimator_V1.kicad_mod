@@ -1,7 +1,7 @@
 (footprint "S&KCollimator_V1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "C1"
 		(at 5.7 -14.5 90)
@@ -16,23 +16,10 @@
 		)
 	)
 	(property "Value" "689nm 9/2 Out, 60SMS-1-4-A4.5S-02"
-		(at -1 0 -90)
+		(at -1 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "2cfa025a-0e19-47bb-8437-d3d2df5cdefa")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Optics:S&KCollimator"
-		(at 0 0 90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb46bdf0-87b3-43f7-9337-1f94fd5b9520")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a45d64e7-d123-46d0-9391-187c8f7f880e")
 	)
@@ -85,7 +72,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c750e693-9246-4280-b9e8-b8c6b8a97429")
 	)
@@ -96,7 +83,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "42b05112-de85-48f0-bde2-4ff1be7cc005")
 	)
@@ -109,7 +96,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d2b0170f-d440-44eb-ba6a-bc1a4be0ad3a")
 	)
@@ -130,7 +117,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "ab89340e-9caf-4fd6-a220-98da2a7fe0c5")
 	)
@@ -141,12 +128,12 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "e91be740-a2e1-44eb-8b8e-316c6d786d9e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.5 0 -90)
+		(at -2.5 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "62f26735-333e-4658-bbef-439cbaa3f117")
@@ -160,9 +147,10 @@
 	(pad "1" smd circle
 		(at 0 0 270)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bf1180dc-a3aa-4c65-8cbc-2c09c8d4450b")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/S&K60FCSMS_OLD.STEP"
 		(offset
 			(xyz 0 0 0)

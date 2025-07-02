@@ -1,0 +1,168 @@
+(footprint "EOM_Qubig_PM-Yb+_14.7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -20.4 24.4 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6c13dafc-47ca-4e29-861d-83ac713f6677")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "EOM_Qubig_PM-Yb+_14.7"
+		(at -33.2 6.8 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c79c031f-c9ff-4c49-9879-bb6ecaf918d0")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b791ba84-172e-4d18-9168-d5e6bc68226d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6452c61-f717-499d-9863-d71e5ea926cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 29.5 15)
+		(end -29.5 -15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4a5e19b0-7dc6-461c-8583-709c9b284ea6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6d8c0200-af98-4a0b-ba87-a5f8c9ebc29a")
+	)
+	(fp_rect
+		(start -30.5 -16)
+		(end 30.5 16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "25576f44-71fd-4613-9027-5eb5df3d3dc2")
+	)
+	(fp_line
+		(start 0 0)
+		(end -70 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3530afe3-415f-44b7-8dbb-6c279e92f1ad")
+	)
+	(fp_line
+		(start 0 0)
+		(end 70 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b5f9dba4-ae42-4c7c-838e-71d06587833c")
+	)
+	(fp_rect
+		(start -3 -20.2)
+		(end 3 -17.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "5acfe97b-5a49-4551-8612-d49da4a9015e")
+	)
+	(fp_rect
+		(start -3 17.2)
+		(end 3 20.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "7ff51b14-e36a-44ac-882e-ee8d5974e423")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8bdb8de5-b2f2-4e30-8d4d-2bc0e3412ef1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 22.5 0 180)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4b9dca14-5946-424c-8419-6a4e9196de07")
+	)
+	(pad "2" smd circle
+		(at -22.5 0 180)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64a6010e-1551-406f-8d73-bf101bb35c73")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/EOM_Qubig_PM_Yb_147.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "AOM_+195MHz461A"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "+195MHz, 461nm"
-			(at 0 0 0)
+			(at -0.508 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_+195M_461nm"
-			(at 17.272 -4.318 0)
+			(at 0.254 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 			)
 		)
 		(property "Angle" "-0.6139597016"
-			(at 0 0 0)
+			(at -0.254 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,18 +81,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 0 0) (xy -6.35 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 5.08 -34.29)
 				(end 10.16 -39.37)
@@ -104,22 +92,16 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 0 0) (xy -6.35 1.27)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -140,7 +122,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_+195MHz461B"
 		(exclude_from_sim no)
@@ -155,7 +156,7 @@
 			)
 		)
 		(property "Value" "+195MHz, 461nm"
-			(at 0 0 0)
+			(at -1.016 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,7 +164,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_+195M_461nm"
-			(at 17.272 -4.318 0)
+			(at 0 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -190,7 +191,7 @@
 			)
 		)
 		(property "Angle" "-0.6139597016"
-			(at 0 0 0)
+			(at -1.27 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,6 +199,18 @@
 			)
 		)
 		(symbol "AOM_+195MHz461B_1_1"
+			(polyline
+				(pts
+					(xy -12.7 0) (xy 0 0) (xy 6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -12.5 17.8)
 				(end 12.5 -34.3)
@@ -221,18 +234,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -12.7 0) (xy 0 0) (xy 6.35 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 5.08 -34.29)
 				(end 10.16 -39.37)
@@ -242,24 +243,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -280,7 +263,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_+210MHz461A"
 		(exclude_from_sim no)
@@ -295,7 +297,7 @@
 			)
 		)
 		(property "Value" "+210MHz, 461nm"
-			(at 0 0 0)
+			(at -0.254 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +305,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_+210M_461nm"
-			(at 17.272 -4.318 0)
+			(at 0.254 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +332,7 @@
 			)
 		)
 		(property "Angle" "-0.661187371"
-			(at 0 0 0)
+			(at -0.254 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,18 +363,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 0 0) (xy -6.35 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 5.08 -34.29)
 				(end 10.16 -39.37)
@@ -384,22 +374,16 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 0 0) (xy -6.35 1.27)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -420,7 +404,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_+210MHz461B"
 		(exclude_from_sim no)
@@ -435,7 +438,7 @@
 			)
 		)
 		(property "Value" "+210MHz, 461nm"
-			(at 0 0 0)
+			(at -0.762 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +446,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_+210M_461nm"
-			(at 17.272 -4.318 0)
+			(at -0.254 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +473,7 @@
 			)
 		)
 		(property "Angle" "-0.661187371"
-			(at 0 0 0)
+			(at -1.016 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,6 +481,18 @@
 			)
 		)
 		(symbol "AOM_+210MHz461B_1_1"
+			(polyline
+				(pts
+					(xy -12.7 0) (xy 0 0) (xy 6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -12.5 17.8)
 				(end 12.5 -34.3)
@@ -501,18 +516,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -12.7 0) (xy 0 0) (xy 6.35 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 5.08 -34.29)
 				(end 10.16 -39.37)
@@ -522,24 +525,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -560,7 +545,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_-80MHz461A"
 		(exclude_from_sim no)
@@ -575,7 +579,7 @@
 			)
 		)
 		(property "Value" "-80MHz, 461nm"
-			(at 0 0 0)
+			(at -0.254 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -583,7 +587,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_-80M_461nm"
-			(at 17.272 -4.318 0)
+			(at 0 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,7 +614,7 @@
 			)
 		)
 		(property "Angle" "0.2518809032"
-			(at 0 0 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,18 +645,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 0 0) (xy -6.35 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 5.08 -34.29)
 				(end 10.16 -39.37)
@@ -664,22 +656,16 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 0 0) (xy -6.35 -1.27)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -700,7 +686,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_-80MHz461B"
 		(exclude_from_sim no)
@@ -715,7 +720,7 @@
 			)
 		)
 		(property "Value" "-80MHz, 461nm"
-			(at 0 -3.81 0)
+			(at -0.508 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +728,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_-80M_461nm"
-			(at 17.272 -4.318 0)
+			(at 0.254 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,7 +755,7 @@
 			)
 		)
 		(property "Angle" "0.2518809032"
-			(at 0 0 0)
+			(at -0.254 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,6 +763,18 @@
 			)
 		)
 		(symbol "AOM_-80MHz461B_1_1"
+			(polyline
+				(pts
+					(xy -12.7 0) (xy 0 0) (xy 6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -12.5 17.8)
 				(end 12.5 -34.3)
@@ -781,18 +798,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -12.7 0) (xy 0 0) (xy 6.35 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 5.08 -34.29)
 				(end 10.16 -39.37)
@@ -802,24 +807,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -840,7 +827,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_-80MHz689A"
 		(exclude_from_sim no)
@@ -854,8 +860,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "-80MHz, 689nm"
+			(at -1.27 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +869,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_-80M_689nm"
-			(at 17.272 -4.318 0)
+			(at 0.254 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,6 +893,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Angle" "0.3764554063"
+			(at -0.762 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "AOM_-80MHz689A_1_1"
@@ -913,18 +927,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 0 0) (xy -6.35 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 5.08 -34.29)
 				(end 10.16 -39.37)
@@ -936,22 +938,16 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 0 0) (xy -6.35 -1.27)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -972,7 +968,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_-80MHz689B"
 		(exclude_from_sim no)
@@ -986,8 +1001,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "-80MHz, 689nm"
+			(at -1.778 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +1010,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_-80M_689nm"
-			(at 17.272 -4.318 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1036,27 @@
 				(hide yes)
 			)
 		)
+		(property "Angle" "0.3764554063"
+			(at -1.27 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "AOM_-80MHz689B_1_1"
+			(polyline
+				(pts
+					(xy -12.7 0) (xy 0 0) (xy 6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -12.5 17.8)
 				(end 12.5 -34.3)
@@ -1040,18 +1075,6 @@
 				(stroke
 					(width 0)
 					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 0) (xy 0 0) (xy 6.35 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
 				)
 				(fill
 					(type none)
@@ -1105,6 +1128,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_80MHz689A"
 		(exclude_from_sim no)
@@ -1127,7 +1151,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_+80M_689nm"
-			(at 17.272 -4.318 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,18 +1201,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 0 0) (xy -6.35 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 5.08 -34.29)
 				(end 10.16 -39.37)
@@ -1200,22 +1212,16 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 0 0) (xy -6.35 1.27)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -1236,7 +1242,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AOM_80MHz689B"
 		(exclude_from_sim no)
@@ -1259,7 +1284,7 @@
 			)
 		)
 		(property "Footprint" "Optics:AOM_+80M_689nm"
-			(at 17.272 -4.318 0)
+			(at -0.254 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,6 +1311,18 @@
 			)
 		)
 		(symbol "AOM_80MHz689B_1_1"
+			(polyline
+				(pts
+					(xy -12.7 0) (xy 0 0) (xy 6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -12.5 17.8)
 				(end 12.5 -34.3)
@@ -1304,18 +1341,6 @@
 				(stroke
 					(width 0)
 					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 0) (xy 0 0) (xy 6.35 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
 				)
 				(fill
 					(type none)
@@ -1369,12 +1394,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ApertureLeft"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "APL"
+		(property "Reference" "AP"
 			(at -3.302 -1.778 0)
 			(effects
 				(font
@@ -1479,12 +1505,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ApertureRight"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "APR"
+		(property "Reference" "AP"
 			(at -2.032 -2.286 0)
 			(effects
 				(font
@@ -1589,6 +1616,69 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "Baseplate200x200"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200mm"
+			(at 0.254 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:Baseplate200x200mm"
+			(at -0.254 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Baseplate200x200_1_1"
+			(rectangle
+				(start -100 100)
+				(end 100 -100)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "Baseplate230x230"
 		(exclude_from_sim no)
@@ -1650,6 +1740,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Baseplate280x230"
 		(exclude_from_sim no)
@@ -1711,8 +1802,9 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "Cleaning-689nm"
+	(symbol "CleaningCube"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1759,7 +1851,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Cleaning-689nm_0_1"
+		(symbol "CleaningCube_0_1"
 			(rectangle
 				(start -5.08 2.54)
 				(end -6.35 -2.54)
@@ -1794,7 +1886,7 @@
 				)
 			)
 		)
-		(symbol "Cleaning-689nm_1_0"
+		(symbol "CleaningCube_1_0"
 			(pin passive line
 				(at 0 8.89 270)
 				(length 2.54)
@@ -1814,7 +1906,7 @@
 				)
 			)
 		)
-		(symbol "Cleaning-689nm_1_1"
+		(symbol "CleaningCube_1_1"
 			(rectangle
 				(start -6.35 6.35)
 				(end 6.35 -6.35)
@@ -1845,8 +1937,136 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Collimator_S&K_M5"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 5.08 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&KCollimator_V4"
+			(at 11.684 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Collimator_S&K_M5_1_1"
+			(polyline
+				(pts
+					(xy -33.02 0) (xy -6.35 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -33 14)
+				(end 0 -14)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 2.54)
+				(mid -1.4879 0)
+				(end -2.54 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 10)
+				(end 17 -10)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -2.54)
+				(mid -3.5921 0)
+				(end -2.54 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 19.05 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Collimator_S&K_M5_OLD"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1893,7 +2113,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "Collimator_S&K_M5_1_1"
+		(symbol "Collimator_S&K_M5_OLD_1_1"
+			(polyline
+				(pts
+					(xy -33.02 0) (xy -6.35 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -33 14)
 				(end 0 -14)
@@ -1906,33 +2138,9 @@
 				)
 			)
 			(arc
-				(start -2.54 -2.54)
-				(mid -1.4879 0)
-				(end -2.54 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -2.54 2.54)
-				(mid -3.5921 0)
+				(mid -1.4879 0)
 				(end -2.54 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -33.02 0) (xy -6.35 0)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1950,6 +2158,18 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -2.54)
+				(mid -3.5921 0)
+				(end -2.54 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -1971,6 +2191,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "DichroicMirror3mmE02"
 		(exclude_from_sim no)
@@ -2022,7 +2243,7 @@
 		(symbol "DichroicMirror3mmE02_0_1"
 			(polyline
 				(pts
-					(xy 6.35 0) (xy 5.08 0)
+					(xy -1.27 0) (xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2034,7 +2255,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 0 0) (xy 0 1.27)
+					(xy 6.35 0) (xy 5.08 0)
 				)
 				(stroke
 					(width 0)
@@ -2113,6 +2334,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "DichroicMirror6mmE02"
 		(exclude_from_sim no)
@@ -2243,6 +2465,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "EOM-1.4GHz-689nm"
 		(exclude_from_sim no)
@@ -2351,29 +2574,31 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "Lambda/2 -689Rot"
+	(symbol "Filter-1Inch"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "WPR"
-			(at -0.508 13.97 0)
+		(property "Reference" "F"
+			(at 13.462 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L/2@689nm - Rotatable"
-			(at -0.508 11.43 0)
+		(property "Value" "Filter 3.5mm"
+			(at 12.954 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Optics:WaveplateRotateable"
-			(at 0 -6.35 0)
+		(property "Footprint" "Optics:Filter-1Inch"
+			(at 11.176 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,48 +2624,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Lambda/2 -689Rot_0_1"
-			(arc
-				(start -2.54 -3.81)
-				(mid 0 -4.8621)
-				(end 2.54 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 3.81)
-				(mid 0 4.8621)
-				(end -2.54 3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Lambda/2 -689Rot_1_1"
+		(symbol "Filter-1Inch_1_1"
 			(rectangle
-				(start -5.5 10)
-				(end 5.5 -10)
+				(start -12.5 3.5)
+				(end 12.5 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2449,43 +2636,13 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -5.08 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
-				(at -7.62 0 0)
-				(length 2.54)
+				(at 0 6.35 270)
+				(length 2.7)
 				(name "In"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "Out"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
@@ -2497,7 +2654,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Lens3mm"
 		(exclude_from_sim no)
@@ -2548,18 +2724,6 @@
 			)
 		)
 		(symbol "Lens3mm_1_1"
-			(arc
-				(start -6.35 0)
-				(mid 0 -1.8125)
-				(end 6.35 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start -6.35 3)
 				(end 6.35 0)
@@ -2571,22 +2735,16 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
+			(arc
+				(start 6.35 0)
+				(mid 0 -1.8125)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -2607,7 +2765,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Lens6mm"
 		(exclude_from_sim no)
@@ -2658,18 +2835,6 @@
 			)
 		)
 		(symbol "Lens6mm_1_1"
-			(arc
-				(start -6.35 0)
-				(mid 0 -1.8125)
-				(end 6.35 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start -6.35 6)
 				(end 6.35 0)
@@ -2681,22 +2846,16 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
+			(arc
+				(start 6.35 0)
+				(mid 0 -1.8125)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -2717,7 +2876,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Mirror3mmE02Left"
 		(exclude_from_sim no)
@@ -2769,7 +2947,7 @@
 		(symbol "Mirror3mmE02Left_0_1"
 			(polyline
 				(pts
-					(xy 6.35 0) (xy 5.08 0)
+					(xy -1.27 0) (xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2781,7 +2959,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 0 0) (xy 0 1.27)
+					(xy 6.35 0) (xy 5.08 0)
 				)
 				(stroke
 					(width 0)
@@ -2860,6 +3038,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Mirror3mmE02Right"
 		(exclude_from_sim no)
@@ -2990,6 +3169,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Mirror6mmE02"
 		(exclude_from_sim no)
@@ -3100,6 +3280,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Mirror6mmNormal"
 		(exclude_from_sim no)
@@ -3179,6 +3360,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Monitor"
 		(exclude_from_sim no)
@@ -3240,9 +3422,9 @@
 				)
 			)
 			(arc
-				(start 5.08 -2.54)
+				(start 5.08 2.54)
 				(mid 6.1321 0)
-				(end 5.08 2.54)
+				(end 5.08 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -3270,8 +3452,9 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "NPBS_70-30"
+	(symbol "NPBS"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3318,7 +3501,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NPBS_70-30_0_1"
+		(symbol "NPBS_0_1"
 			(rectangle
 				(start -6.35 -2.54)
 				(end -5.08 2.54)
@@ -3354,7 +3537,7 @@
 				)
 			)
 		)
-		(symbol "NPBS_70-30_1_1"
+		(symbol "NPBS_1_1"
 			(rectangle
 				(start -6.35 6.35)
 				(end 6.35 -6.35)
@@ -3367,16 +3550,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 90)
+				(at -8.89 0 0)
 				(length 2.54)
-				(name "In"
+				(name "In2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3403,6 +3586,24 @@
 				)
 			)
 			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 8.89 0 180)
 				(length 2.54)
 				(name "V"
@@ -3420,27 +3621,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "In2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "NPBS_70-30-Flipped"
+	(symbol "NPBS-Flipped"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3487,7 +3671,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NPBS_70-30-Flipped_0_1"
+		(symbol "NPBS-Flipped_0_1"
 			(polyline
 				(pts
 					(xy -6.35 6.35) (xy 6.35 -6.35)
@@ -3501,7 +3685,7 @@
 				)
 			)
 		)
-		(symbol "NPBS_70-30-Flipped_1_1"
+		(symbol "NPBS-Flipped_1_1"
 			(rectangle
 				(start -6.35 6.35)
 				(end 6.35 -6.35)
@@ -3514,16 +3698,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 90)
+				(at -8.89 0 0)
 				(length 2.54)
-				(name "In"
+				(name "V"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3550,16 +3734,16 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 0 0)
+				(at 0 -8.89 90)
 				(length 2.54)
-				(name "V"
+				(name "In"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3586,6 +3770,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NPBS_Reflector"
 		(exclude_from_sim no)
@@ -3635,9 +3820,10 @@
 			)
 		)
 		(symbol "NPBS_Reflector_0_1"
-			(rectangle
-				(start -5.08 2.54)
-				(end -6.35 -2.54)
+			(polyline
+				(pts
+					(xy -6.35 -6.35) (xy 6.35 6.35)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3646,10 +3832,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -6.35 -6.35) (xy 6.35 6.35)
-				)
+			(rectangle
+				(start -5.08 2.54)
+				(end -6.35 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -3719,6 +3904,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NPBS_Reflector_Flipped"
 		(exclude_from_sim no)
@@ -3779,10 +3965,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 6.35 -6.35) (xy -6.35 6.35)
-				)
+			(rectangle
+				(start 6.35 2.54)
+				(end 5.08 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -3791,9 +3976,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 6.35 2.54)
-				(end 5.08 -2.54)
+			(polyline
+				(pts
+					(xy 6.35 -6.35) (xy -6.35 6.35)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3816,24 +4002,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 90)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -8.89 0 0)
 				(length 2.54)
 				(name "V"
@@ -3851,7 +4019,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NPBS_Reflector_Top"
 		(exclude_from_sim no)
@@ -3955,6 +4142,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PBS"
 		(exclude_from_sim no)
@@ -4052,16 +4240,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 90)
+				(at -8.89 0 0)
 				(length 2.54)
-				(name "In"
+				(name "In2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4088,139 +4276,6 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "In2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "PBS_689Casix"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "PBS"
-			(at 3.556 7.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PBSCasix689nm"
-			(at 12.954 9.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Optics:PBS"
-			(at 9.398 -10.922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "PBS_689Casix_0_1"
-			(rectangle
-				(start -5.08 2.54)
-				(end -6.35 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 6.35) (xy -6.35 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 5.08 -2.54)
-				(end 6.35 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "PBS_689Casix_1_1"
-			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
 				(at 0 -8.89 90)
 				(length 2.54)
 				(name "In"
@@ -4239,24 +4294,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 8.89 270)
-				(length 2.54)
-				(name "H"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 8.89 0 180)
 				(length 2.54)
 				(name "V"
@@ -4274,25 +4311,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "In2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PBS_Cleaning"
 		(exclude_from_sim no)
@@ -4390,24 +4410,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 90)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 8.89 270)
 				(length 2.54)
 				(name "H"
@@ -4425,7 +4427,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PBS_Cleaning_Flipped"
 		(exclude_from_sim no)
@@ -4475,9 +4496,10 @@
 			)
 		)
 		(symbol "PBS_Cleaning_Flipped_0_1"
-			(rectangle
-				(start -6.35 -2.54)
-				(end -5.08 2.54)
+			(polyline
+				(pts
+					(xy -6.35 6.35) (xy 6.35 -6.35)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -4486,10 +4508,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -6.35 6.35) (xy 6.35 -6.35)
-				)
+			(rectangle
+				(start -6.35 -2.54)
+				(end -5.08 2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -4523,24 +4544,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 90)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 8.89 270)
 				(length 2.54)
 				(name "H"
@@ -4558,7 +4561,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PBS_Flipped"
 		(exclude_from_sim no)
@@ -4608,9 +4630,10 @@
 			)
 		)
 		(symbol "PBS_Flipped_0_1"
-			(rectangle
-				(start -6.35 2.54)
-				(end -5.08 -2.54)
+			(polyline
+				(pts
+					(xy -6.35 6.35) (xy 6.35 -6.35)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -4619,10 +4642,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -6.35 6.35) (xy 6.35 -6.35)
-				)
+			(rectangle
+				(start -6.35 2.54)
+				(end -5.08 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -4656,16 +4678,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 90)
+				(at -8.89 0 0)
 				(length 2.54)
-				(name "In"
+				(name "V"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4692,16 +4714,16 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 0 0)
+				(at 0 -8.89 90)
 				(length 2.54)
-				(name "V"
+				(name "In"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4728,6 +4750,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Shutter-BOS7-10"
 		(exclude_from_sim no)
@@ -4812,6 +4835,18 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy -11.43 0) (xy 8.89 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -10.16 6.35)
 				(end -6.35 5.08)
@@ -4836,18 +4871,6 @@
 			)
 			(polyline
 				(pts
-					(xy -11.43 0) (xy 8.89 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 3.81) (xy -8.89 6.35)
 				)
 				(stroke
@@ -4856,24 +4879,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin passive line
-				(at 11.43 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -4894,7 +4899,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 11.43 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SquareMirror6mm"
 		(exclude_from_sim no)
@@ -5005,5 +5029,154 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "WaveplateRotateable"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "WPR"
+			(at -0.508 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WaveplateRotateable"
+			(at -0.508 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:WaveplateRotateable"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WaveplateRotateable_0_1"
+			(arc
+				(start -2.54 3.81)
+				(mid 0 4.8621)
+				(end 2.54 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -3.81)
+				(mid 0 -4.8621)
+				(end -2.54 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "WaveplateRotateable_1_1"
+			(rectangle
+				(start -5.5 10)
+				(end 5.5 -10)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 )
