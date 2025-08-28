@@ -1,0 +1,129 @@
+(footprint "Baseplate230x230x15mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.65 2.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1c48b83d-7273-46b9-ad07-54d15239a24f")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "Baseplate230x230x15mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2bcbdf2-8e99-4129-bc08-cbfb57e73c09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "042fc03d-0225-4476-869f-3e1db4c6d177")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbf580ef-9f34-40f3-a356-02b99041b4c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd allow_missing_courtyard)
+	(fp_rect
+		(start 0 0)
+		(end 230 230)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "464fa565-6c22-426e-a89d-d31f478222cc")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 230 230)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "6725557f-1fc9-41c5-9131-7247ab1dbb77")
+	)
+	(fp_text user "CAM1"
+		(at 0.4 221.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c5ab48e5-fa57-49b6-98a6-40de91da74f6")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CAM2"
+		(at 1 20.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d26ba0ae-c0e2-4d0e-ae87-144c4260984c")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eebff5bd-30d3-46ee-b44f-2243851cdf46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/OpticalCircuitBaseplate_230x230x15mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

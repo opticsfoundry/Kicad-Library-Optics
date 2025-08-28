@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "C1"
-		(at 5.7 -14.5 90)
+		(at 11.8 -14.2 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "77dd16e5-4766-4e04-b272-cfaa335fb2e9")
@@ -15,15 +15,15 @@
 			)
 		)
 	)
-	(property "Value" "689nm 9/2 Out, 60SMS-1-4-A4.5S-02"
-		(at -1 0 270)
+	(property "Value" "Input"
+		(at 8.1 14.2 180)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "023714ff-baab-488c-ba54-cb080bb71844")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 3 3)
+				(thickness 0.3)
 			)
 		)
 	)
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "60SMS-1-4-A4.5S-02"
 		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")

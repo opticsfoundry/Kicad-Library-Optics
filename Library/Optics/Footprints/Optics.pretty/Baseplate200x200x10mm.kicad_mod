@@ -1,4 +1,4 @@
-(footprint "Baseplate320x230mm"
+(footprint "Baseplate200x200x10mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Baseplate320x230mm"
+	(property "Value" "Baseplate200x200x10mm"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,7 +56,7 @@
 	(attr smd allow_missing_courtyard)
 	(fp_rect
 		(start 0 0)
-		(end 320 230)
+		(end 200 200)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -67,7 +67,7 @@
 	)
 	(fp_rect
 		(start 0 0)
-		(end 320 230)
+		(end 200 200)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -115,7 +115,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/OpticalCircuitBaseplate_320x230mm.step"
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/OpticalCircuitBaseplate_200x200x10mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
